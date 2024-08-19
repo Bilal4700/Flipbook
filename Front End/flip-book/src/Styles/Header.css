@@ -1,0 +1,10 @@
+.App-header {
+    display: block;
+    border-radius: 10px;
+    background-color: white;
+    margin: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: black;
+    font-family: cursive;
+  }
