@@ -1,11 +1,11 @@
 import './App.css';
-import Header from './Components/Header';
 import './App.css';
+import Home from './Components/Home';
 
 function App() {
   return (
     <div className="App">
-      <Header title="Flip Books" />
+      <Home title="Flip Books" />
     </div>
   );
 }

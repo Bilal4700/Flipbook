@@ -1,6 +1,9 @@
-/* src/App.css */
-
 body {
-    background-color: rgb(225, 234, 234)
-  }
-  
+  background-image: url('./assets/Background.jpg'); /* Add your image path here */
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+}
+body, html {
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}

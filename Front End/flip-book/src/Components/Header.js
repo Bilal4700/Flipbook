@@ -9,13 +9,13 @@ export default function Header(props) {
 					<h1>{props.title}</h1>
 				</div>
 				<div className="nav-links">
-					<a href="/" className="Home">
+					<a href="/" className="Home-link">
 						Home
 					</a>
-          <a href="#" className="Make your own">
+          <a href="#" className="Make your own-link">
 						Make your own
 					</a>
-					<a href="#" className="History">
+					<a href="#" className="History-link">
 						History
 					</a>
 				</div>
