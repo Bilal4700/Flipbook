@@ -12,10 +12,10 @@ export default function Header(props) {
 					<a href="/" className="Home-link">
 						Home
 					</a>
-          <a href="#" className="Make your own-link">
+					<a href="./GifUploader" className="Gif-Uploader">
 						Make your own
 					</a>
-					<a href="#" className="History-link">
+					<a href="/History" className="History-link">
 						History
 					</a>
 				</div>

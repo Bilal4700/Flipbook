@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./Header";
 import "../Styles/Home.css";
 import flipbookArt from '../assets/flipbookart.png';
 
@@ -7,7 +6,6 @@ import flipbookArt from '../assets/flipbookart.png';
 function Home(props) {
 	return (
 		<div className="Home">
-			<Header title={props.title} />
 			<div className="Home-body">
 				<h2>Welcome to the Flip Book Generator</h2>
 				<p>

@@ -3,7 +3,9 @@
   border-radius: 10px;
   background-color: white;
   opacity: 0.8;
-  margin: 20,80px,80px,80px;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
   padding: 10px;
   color: black;
 }
