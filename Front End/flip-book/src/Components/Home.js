@@ -3,7 +3,7 @@ import "../Styles/Home.css";
 import flipbookArt from '../assets/flipbookart.png';
 
 
-function Home(props) {
+function Home() {
 	return (
 		<div className="Home">
 			<div className="Home-body">

@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/Header.css";
-
+import { NavLink } from "react-router-dom";
 export default function Header(props) {
 	return (
 		<header className="App-header">
@@ -9,15 +9,15 @@ export default function Header(props) {
 					<h1>{props.title}</h1>
 				</div>
 				<div className="nav-links">
-					<a href="/" className="Home-link">
+					<NavLink to="/" style={({ isActive }) => ({color: isActive ? "red" : "",})}>
 						Home
-					</a>
-					<a href="./GifUploader" className="Gif-Uploader">
+					</NavLink>
+					<NavLink to="/GifUploader" style={({ isActive }) => ({color: isActive ? "red" : "",})}>
 						Make your own
-					</a>
-					<a href="/History" className="History-link">
+					</NavLink>
+					<NavLink to="/History" style={({ isActive }) => ({color: isActive ? "red" : "",})}>
 						History
-					</a>
+					</NavLink>
 				</div>
 			</nav>
 		</header>
