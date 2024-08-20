@@ -1,10 +1,40 @@
 .App-header {
-    display: block;
-    border-radius: 10px;
-    background-color: white;
-    margin: 80px;
-    padding: 10px;
-    box-sizing: border-box;
-    color: black;
-    font-family: cursive;
-  }
+  display: block;
+  border-radius: 10px;
+  background-color: white;
+  margin: 80px;
+  padding: 10px;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title{
+  font-family: cursive;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  margin-right: 20px; 
+  border-radius: 5px;
+  transition: background-color;
+  font-family: Arial, sans-serif;
+}
+
+.nav-links a:hover {
+  background-color: lightgray;
+}
+
+
+

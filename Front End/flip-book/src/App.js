@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header title="Make your own Flip Books" />
+      <Header title="Flip Books" />
     </div>
   );
 }
