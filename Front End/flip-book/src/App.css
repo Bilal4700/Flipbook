@@ -1,5 +1,5 @@
 body {
-  background-image: url('./assets/Background.jpg'); /* Add your image path here */
+  background-image: url('./assets/Background.jpg'); /*Web Page background*/
   background-size: cover; 
   background-position: center; 
   background-attachment: fixed; 
