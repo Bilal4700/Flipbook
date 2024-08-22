@@ -2,7 +2,7 @@ import { useState } from "react";
 import React from "react";
 import axios from "axios";
 import "../Styles/FileUploader.css"
-//TAKEN FROM BOOTSTRAP
+//USED BOOTSTRAP FOR JSX AND CSS TO MAKE A DRAG AND DROP UPLOADER
 export const FileUploader = ({}) => {
     const[file,setFile] = useState(null)
     const onInputChange = (e) => {
@@ -23,7 +23,7 @@ export const FileUploader = ({}) => {
     }
 
 	return (
-		<form method="post" action="#" id="#">
+		<form method="post" action="#" id="#" onChange={onSubmit}>
 			<div className="form-group files">
 				<label>Upload Your File </label>
 				<input type="file" className="form-control" onChange={onInputChange} />
