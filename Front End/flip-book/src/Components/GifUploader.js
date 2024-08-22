@@ -1,9 +1,10 @@
 import React from 'react'
+import { FileUploader } from './FileUploader'
 
 export default function GifUploader() {
   return (
     <div>
-      This is Gif Uploader
+      <FileUploader/>
     </div>
   )
 }
