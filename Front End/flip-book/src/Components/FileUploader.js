@@ -8,16 +8,16 @@ export const FileUploader = () => {
   const [file, setFile] = useState(null);
 
   const onInputChange = (e) => {
-    console.log(e.target.files[0]); // Corrected to access the selected file
-    setFile(e.target.files[0]); // Store the selected file in state
+    console.log(e.target.files[0]); 
+    setFile(e.target.files[0]); 
   };
 
   const onSubmit = (e) => {
-    e.preventDefault(); // Prevent the default form submission
+    e.preventDefault(); 
     const data = new FormData();
-    data.append("file", file); // Ensure the key is "file" to match your backend
+    data.append("file", file); // Just to remember the key is file
 
-    axios.post("http://localhost:5000/uploads", data) // Corrected from "append" to "post"
+    axios.post("http://localhost:5000/uploads", data) 
       .then(() => {
         console.log("SUCCESS");
       })
