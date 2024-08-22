@@ -3,7 +3,7 @@ import { FileUploader } from './FileUploader'
 
 export default function GifUploader() {
   return (
-    <div>
+    <div >
       <FileUploader/>
     </div>
   )
