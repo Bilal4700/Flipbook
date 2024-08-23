@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react"; // Import useRef correctly
+import React, { useState, useRef } from "react"; 
 import axios from "axios";
 import "../Styles/FileUploader.css";
 
@@ -15,9 +15,9 @@ export const FileUploader = () => {
 	const onSubmit = (e) => {
 		e.preventDefault();
 		const data = new FormData();
-		data.append("file", file); // Just to remember the key is file
+		data.append("gif", file); // Just to remember the key is gif
 
-		axios.post("http://localhost:5000/uploads", data)
+		axios.post("http://127.0.0.1:5000/uploads", data)
 			.then(() => {
 				console.log("SUCCESS");
 			})
@@ -44,7 +44,10 @@ export const FileUploader = () => {
 						type="file"
 						className="form-control"
 						ref={fileInputRef} 
+						accept="image/gif"
 						onChange={onInputChange}
+						name = "gif"
+						required
 					/>
 				</div>
 				<div className="button-container">
