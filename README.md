@@ -10,13 +10,16 @@ Backend: Flask
 
 Running the Backend
 Navigate to the backend directory.
+
 Install all dependencies:
     pip install -r requirements.txt
+    
 Start the server:
     python app.py
 
 Running the Frontend
 Navigate to the frontend directory.
+
 Start the React application:
     npm start
     
