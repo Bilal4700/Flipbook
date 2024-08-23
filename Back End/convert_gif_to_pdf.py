@@ -11,8 +11,8 @@ def convert_gif_to_pdf(gif_path, pdf_path):
     gif = Image.open(gif_path)
     c = canvas.Canvas(pdf_path, pagesize=A4)
     
-    left_margin = 3 * cm
-    spacing = 0.25 * cm
+    left_margin = 0 * cm
+    spacing = 0.05 * cm
     page_width = A4[0]
     y_position = A4[1]
 
