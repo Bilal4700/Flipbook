@@ -2,7 +2,6 @@ import "./App.css";
 import "./Styles/Header.css";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
-import History from "./Components/History";
 import GifUploader from "./Components/GifUploader";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -23,15 +22,6 @@ function App() {
 				<>
 					<Header title="Flip Books" />
 					<GifUploader />
-				</>
-			),
-		},
-		{
-			path: "/History",
-			element: (
-				<>
-					<Header title="Flip Books" />
-					<History />
 				</>
 			),
 		},

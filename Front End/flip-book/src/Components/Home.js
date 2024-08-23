@@ -19,14 +19,13 @@ function Home() {
 				</p>
 				<img src={flipbookArt} alt="Flipbook Art" width="1500" />
 				<p>
-					When you upload a GIF, the website breaks it down into frames at a
-					rate of 15 frames per second. From these frames, it generates a series
-					of images, which are then compiled into a PDF file. This PDF contains
-					all the images in a sequence, ready for printing. Once printed, you
-					can cut out the images, stack them in order, and flip through them to
-					recreate the original animation in a physical format. It's a simple
-					and fun way to bring your digital moments into the real world as a
-					flipbook!
+					When you upload a GIF, the website breaks it down into frames, From
+					these frames, it generates a series of images, which are then compiled
+					into a PDF file. This PDF contains all the images in a sequence, ready
+					for printing. Once printed, you can cut out the images, stack them in
+					order, and flip through them to recreate the original animation in a
+					physical format. It's a simple and fun way to bring your digital
+					moments into the real world as a flipbook!
 				</p>
 
 				<NavLink to="/GifUploader">

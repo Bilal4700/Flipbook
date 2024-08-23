@@ -15,9 +15,6 @@ export default function Header(props) {
 					<NavLink to="/GifUploader" style={({ isActive }) => ({color: isActive ? "red" : "",})}>
 						Make your own
 					</NavLink>
-					<NavLink to="/History" style={({ isActive }) => ({color: isActive ? "red" : "",})}>
-						History
-					</NavLink>
 				</div>
 			</nav>
 		</header>

@@ -23,11 +23,7 @@
     right: 0;
     height: 56px;
     content: "";
-    background-image: url();
-    display: block;
-    margin: 0 auto;
-    background-size: 100%;
-    background-repeat: no-repeat;
+
     
 }
 .color input{ background-color:#f1f1f1;}
