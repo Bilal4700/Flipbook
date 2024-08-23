@@ -9,7 +9,8 @@ Frontend: React
 Backend: Flask
 
 Running the Backend
-Navigate to the backend directory.
+Navigate to the backend directory. and activate the virtual environment myenv
+all instructions for backend are included in README.md file in backend directory
 
 Install all dependencies:
     pip install -r requirements.txt
