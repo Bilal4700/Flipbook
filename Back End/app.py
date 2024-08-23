@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 import os
 from werkzeug.utils import secure_filename
@@ -30,6 +30,14 @@ def upload_gif():
             return jsonify({"error": str(e)}), 500
     else:
         return jsonify({"error": "No file uploaded or file type not allowed"}), 400
+
+@app.route('/pdf/<filename>', methods=['GET'])
+def get_pdf(filename):
+    pdf_path = os.path.join(PDF_FOLDER, filename)
+    if os.path.exists(pdf_path):
+        return send_file(pdf_path, mimetype='application/pdf', as_attachment=True, download_name=filename)
+    else:
+        return jsonify({"error": "PDF file not found"}), 404
 
 if __name__ == '__main__':
     app.run(debug=True)
